@@ -10,9 +10,18 @@ null, undefined
 
 // Operadores += y ++
 
-let numero = 10;
+// let numero = 10;
 
-//numero = numero + 1;
-//numero += 1;
-numero++;
-console.log(numero);
+// numero = numero + 1;
+// numero += 1;
+// numero++;
+// console.log(numero);
+
+/**************************************** */
+/**************************************** */
+
+// Operador ternario
+
+let edad = 21;
+
+console.log( edad >=  18 ? "Puedes ingresar" : "No puedes ingresar");
