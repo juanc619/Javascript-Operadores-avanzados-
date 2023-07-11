@@ -28,6 +28,21 @@ null, undefined
 
 // Operador &&
 
-const carrito = [];
+// const carrito = [];
 
-carrito.length === 0 && console.log("El carrito esta vacio");
+// carrito.length === 0 && console.log("El carrito esta vacio");
+
+// Operador ||
+// FALSY : 0, null, undefinded, NaN, false, string vacio
+
+let usuario1 = "JC";
+let usuario2 = null;
+
+// if (usuario2) {
+//     console.log(usuario2);
+// } else {
+//     console.log("El usuario no existe");
+// }
+
+console.log( usuario1 || "El usuario no existe");
+console.log( usuario2 || "El usuario no existe");
